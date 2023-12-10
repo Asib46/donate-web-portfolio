@@ -211,3 +211,30 @@
 .update{
     margin-top: 130px;
 }
+
+.form{
+    
+    padding: 76px 190px;
+    background: #FFF4D6;
+    margin: 50px 315px;
+    display: flex;
+}
+
+.email{
+    width: 300px;
+    margin-left: -50px;
+    border: none;
+    padding: 10px 30px;
+    background: rgba(226, 223, 223, 0.541);
+}
+
+.subscribe-btn{
+    color: white;
+    background: #fc2701;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 13px 35px;
+    border: 2px solid white;
+    border-radius: 5px;
+    margin-right: -50px;
+}
