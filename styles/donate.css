@@ -40,6 +40,11 @@
     margin-bottom: 100px;
 
 }
+.section-button:hover{
+    color: red;
+    background: white;
+    border: 2px solid red;
+}
 
 .main-section {
     text-align: center;
@@ -74,6 +79,10 @@
     color: #707070;
     background: rgba(128, 128, 128, 0.158);
     margin-left: 20px;
+}
+.box:hover{
+    color: #FD6E0A;
+    background: rgba(128, 128, 128, 0.158);
 }
 
 .spasial-box {
@@ -174,7 +183,7 @@
 .donate-title1 {
     font-size: 45px;
     font-weight: 700;
-    margin-top: 50px;
+    margin-top: 10px;
     margin-bottom: 30px;
 }
 
@@ -234,7 +243,34 @@
     font-size: 20px;
     font-weight: 600;
     padding: 13px 35px;
-    border: 2px solid white;
+    border: 2px solid red;
     border-radius: 5px;
     margin-right: -50px;
+}
+.subscribe-btn:hover{
+    color: #fc2701;
+    background: white;
+    border: 2px solid red;
+}
+
+footer{
+    text-align: center;
+    justify-content: center;
+    margin-top: 130px;
+    background: black;
+    color: white;
+    padding: 45px;
+}
+
+footer h3{
+    font-size: 36px;
+    color: #FF5959;
+    font-family: 'Lobster', sans-serif;
+    margin-bottom: 25px;
+}
+
+footer h4{
+    font-size: 14px;
+    font-family: tahoma;
+    font-weight: 500;
 }
